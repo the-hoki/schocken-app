@@ -82,9 +82,9 @@ export default function Scoreboard() {
       if (schockData.verlorenPlayer) {
         const p = updated[parseInt(schockData.verlorenPlayer)];
         if (schockData.phase === 'Finale' || schockData.durchmarsch) {
-          p.verloren += 0.5;
+          p.verloren += 1;
         }
-        if (schockData.durchmarsch) p.durchmarsch += 0.5;
+        if (schockData.durchmarsch) p.durchmarsch += 1;
       }
       return updated;
     });
