@@ -1,3 +1,1 @@
-Version 0.2 
-- Improved for mobile phones
-- Popup for "Schock-Aus!"
+Web-App for a Scoreboard for the dice game "Schocken"
